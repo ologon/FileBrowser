@@ -87,6 +87,7 @@ class FileListViewController: UIViewController {
         
         // Set search bar
         tableView.tableHeaderView = searchController.searchBar
+        tableView.rowHeight = 60
         
         // Register for 3D touch
         self.registerFor3DTouch()

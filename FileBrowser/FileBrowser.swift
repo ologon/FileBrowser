@@ -71,5 +71,6 @@ open class FileBrowser: UINavigationController {
         self.init(rootViewController: fileListViewController)
         self.view.backgroundColor = UIColor.fileBrowserBackground()
         self.fileList = fileListViewController
+        self.navigationBar.tintColor = UIColor.systemOrange
     }
 }
